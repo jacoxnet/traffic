@@ -70,7 +70,7 @@ def load_data(data_dir):
             img = cv2.imread(os.path.join(data_dir, category, name))
             img = cv2.resize(img, (IMG_WIDTH, IMG_HEIGHT))
             image_list.append(img)
-            # also update label for that imgae
+            # also update label for that image
             labels.append(int(category))
     return (image_list, labels)
 
