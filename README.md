@@ -22,6 +22,7 @@ experimental modifications that had a significant effect on accuracy:
 
 - lowered the dropout rate from 0.5 to 0.2 (improved test data accuracy to 79%)
 - added a second convolution and pooling layer similar to the first (improved accuracy to 95%)
+- increased the recognition units from 128 to 256
 
 Then I made some more changes that had a minimal or slightly harmful effect:
 
